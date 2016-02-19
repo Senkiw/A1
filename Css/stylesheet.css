@@ -28,7 +28,7 @@ body {
 	height:auto;
 	width: 100%;
     color: rgba(245, 245, 245, 0.4);
-    line-height: 450px;
+    line-height: 400px;
 
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
@@ -92,6 +92,9 @@ body {
 	}
 
 }
+@media screen and (max-width:600px) {
+
+}
 
 /* Mobile view */
 @media screen and (max-width:480px) {
@@ -100,8 +103,18 @@ body {
 		height: auto;
 		width: 100%;
 		line-height: 190px;
+		
 	}
 	
+	#fullscreen-bg {
+		background: url(../images/water.jpg) no-repeat; 
+		background-size: contain;
+	}
+
+	.video-bg{
+		display: none;
+	}
+
 	#content p{
 		font-size: 0.7rem;
 	}
